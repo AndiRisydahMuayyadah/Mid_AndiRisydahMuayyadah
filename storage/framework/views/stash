@@ -1,0 +1,23 @@
+<?php
+
+namespace Storage\framework\risydah.blade.php;
+
+use Illuminate\Http\Request;
+
+class view
+{
+    public function viewTemplate()
+    {
+        return view('newview');
+    }
+
+    public function viewberanda()
+    {
+        return view('beranda');
+    }
+
+    public function viewform()
+    {
+        return view('form');
+    }
+}
